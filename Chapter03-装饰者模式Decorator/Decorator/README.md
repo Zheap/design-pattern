@@ -22,3 +22,6 @@
 
 
 
+### 运行截图
+
+![](https://github.com/Zheap/design-pattern/raw/master/Image/decorator.png)
