@@ -14,4 +14,50 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PizzaStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Pizza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RawMaterial.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PizzaIngredientFactory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CheesePizza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClamPizza.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="NYPizzaStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChicagoPizzaStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PizzaStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Pizza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CheesePizza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ClamPizza.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="NYPizzaStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChicagoPizzaStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>
