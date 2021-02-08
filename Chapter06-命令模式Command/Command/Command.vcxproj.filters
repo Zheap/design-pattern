@@ -15,18 +15,42 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h">
+    <ClInclude Include="Command.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="SingleInstance.h">
+    <ClInclude Include="Light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LightOnCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleRemoteControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GerageDoorOpenCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GerageDoor.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Singleton.cpp">
+    <ClCompile Include="Light.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="SingleInstance.cpp">
+    <ClCompile Include="LightOnCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleRemoteControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GerageDoorOpenCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GerageDoor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
