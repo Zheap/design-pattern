@@ -6,10 +6,10 @@ using namespace std;
 
 void Light::on()
 {
-	cout << "Light 开灯" << endl;
+	cout << m_name << " 开灯" << endl;
 }
 
 void Light::off()
 {
-	cout << "Light 关灯" << endl;
+	cout << m_name << " 关灯" << endl;
 }

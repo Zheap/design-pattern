@@ -33,6 +33,21 @@
     <ClInclude Include="GerageDoor.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="RemoteControl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LightOffCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GerageDoorCloseCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteControlWithUndo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MacroCommand.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Light.cpp">
@@ -51,6 +66,24 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="GerageDoor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LightOffCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GerageDoorCloseCommand.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Command.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteControlWithUndo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MacroCommand.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

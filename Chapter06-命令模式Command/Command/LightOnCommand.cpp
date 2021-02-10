@@ -9,3 +9,8 @@ void LightOnCommand::execute()
 {
 	m_light->on();
 }
+
+void LightOnCommand::undo()
+{
+	m_light->off();
+}

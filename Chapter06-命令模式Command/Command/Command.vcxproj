@@ -141,17 +141,28 @@
   <ItemGroup>
     <ClInclude Include="Command.h" />
     <ClInclude Include="GerageDoor.h" />
+    <ClInclude Include="GerageDoorCloseCommand.h" />
     <ClInclude Include="GerageDoorOpenCommand.h" />
     <ClInclude Include="Light.h" />
+    <ClInclude Include="LightOffCommand.h" />
     <ClInclude Include="LightOnCommand.h" />
+    <ClInclude Include="MacroCommand.h" />
+    <ClInclude Include="RemoteControl.h" />
+    <ClInclude Include="RemoteControlWithUndo.h" />
     <ClInclude Include="SimpleRemoteControl.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Command.cpp" />
     <ClCompile Include="GerageDoor.cpp" />
+    <ClCompile Include="GerageDoorCloseCommand.cpp" />
     <ClCompile Include="GerageDoorOpenCommand.cpp" />
     <ClCompile Include="Light.cpp" />
+    <ClCompile Include="LightOffCommand.cpp" />
     <ClCompile Include="LightOnCommand.cpp" />
+    <ClCompile Include="MacroCommand.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="RemoteControl.cpp" />
+    <ClCompile Include="RemoteControlWithUndo.cpp" />
     <ClCompile Include="SimpleRemoteControl.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

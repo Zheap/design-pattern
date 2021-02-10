@@ -9,3 +9,8 @@ void GerageDoorOpenCommand::execute()
 {
 	m_door->up();
 }
+
+void GerageDoorOpenCommand::undo()
+{
+	m_door->down();
+}

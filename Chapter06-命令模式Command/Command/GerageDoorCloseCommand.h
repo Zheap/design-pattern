@@ -3,10 +3,12 @@
 #include "GerageDoor.h"
 
 
-class GerageDoorOpenCommand : public Command
+class GerageDoorCloseCommand : public Command
 {
 public:
-	GerageDoorOpenCommand(GerageDoor* door);
+	GerageDoorCloseCommand(GerageDoor* door) {
+		m_door = door;
+	}
 	void execute() override;
 	void undo() override;
 

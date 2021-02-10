@@ -12,6 +12,7 @@ class LightOnCommand : public Command
 public:
 	LightOnCommand(Light* light);
 	void execute() override;
+	void undo() override;
 
 protected:
 	Light* m_light;
