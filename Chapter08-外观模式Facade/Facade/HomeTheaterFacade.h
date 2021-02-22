@@ -8,7 +8,7 @@ public:
 	HomeTheaterFacade(Amplifier* amp,
 		Tuner* tuner,
 		DvdPlayer* dvd,
-		CdPalyer* cd,
+		CdPlayer* cd,
 		Projector* projector,
 		ThreaterLights* lights,
 		Screen* screen,
@@ -21,7 +21,7 @@ private:
 	Amplifier* amp;
 	Tuner* tuner;
 	DvdPlayer* dvd;
-	CdPalyer* cd;
+	CdPlayer* cd;
 	Projector* projector;
 	ThreaterLights* lights;
 	Screen* screen;

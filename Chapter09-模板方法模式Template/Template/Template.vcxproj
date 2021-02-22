@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{ef905e07-caa1-47b6-a9aa-b3d2e7f8fca1}</ProjectGuid>
-    <RootNamespace>Facade</RootNamespace>
+    <ProjectGuid>{afe0bca9-cc83-4091-9acd-738cee2ed167}</ProjectGuid>
+    <RootNamespace>Template</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,11 +139,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Component.h" />
-    <ClInclude Include="HomeTheaterFacade.h" />
+    <ClInclude Include="CaffeineBeverage.h" />
+    <ClInclude Include="CaffeineBeverageWithHook.h" />
+    <ClInclude Include="Coffee.h" />
+    <ClInclude Include="CoffeeWithHook.h" />
+    <ClInclude Include="Tea.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HomeTheaterFacade.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
